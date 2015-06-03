@@ -1,31 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
     <title>cnsoft&#39;s projects at github by cnsoft</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
-
   <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/cnsoft">View On GitHub</a></li>
+        </nav>
+      </div><!-- end header -->
 
-    <header>
-      <div class="container">
-        <h1>cnsoft&#39;s projects at github</h1>
-        <h2>cocos2d-x unity3d  python 3D Engine  bomberman online</h2>
+    <div class="wrapper">
 
-        <section id="downloads">
-          <a href="https://github.com/cnsoft" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+      <section>
+        <div id="title">
+          <h1>cnsoft&#39;s projects at github</h1>
+          <p>cocos2d-x unity3d  python 3D Engine  bomberman online</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/cnsoft">cnsoft</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
 
-    <div class="container">
-      <section id="main_content">
         <h1>
 <a id="kbengine_cocos2dx_demo" class="anchor" href="#kbengine_cocos2dx_demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>kbengine_cocos2dx_demo/</h1>
 
@@ -34,10 +43,11 @@
 <blockquote>
 <p>Oct 8 2014 Alpha is checked in.</p>
 
-<p>May 25 2015 WIP. Rotate sync works.</p>
+<p>May 25 2015 WIP. Rotate sync works.
+June 2 2015 Animation Weapon sync works.</p>
 </blockquote>
 
-<p><img src="https://github.com/cnsoft/kbengine_cocos2dx_demo/raw/v3/kbedemo/snapshots/RotateWorks.gif" alt="MMO cocos2dx "></p>
+<p><img src="https://github.com/cnsoft/kbengine_cocos2dx_demo/raw/v3/kbedemo/snapshots/OtherAvatar_with_weapon_walk1.gif" alt="MMO cocos2dx"></p>
 
 <h1>
 <a id="indie-game-project" class="anchor" href="#indie-game-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>Indie Game Project:</h1>
@@ -104,8 +114,9 @@ Custom Support： <a href="mailto:super.bomber.crush@gmail.com">super.bomber.cru
 
 <p><a href="/Photon-IsLand-MMO-Patch/">Photon-IsLand-MMO-Patch</a>  patched working photon demo.</p>
       </section>
-    </div>
 
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
